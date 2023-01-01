@@ -1,0 +1,53 @@
+.image-title{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered{
+    font-size: 300px;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 10px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sub-heading{
+    font-size: 30px;
+    border-bottom: 5px dotted gray;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: gray;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left:auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    max-width: 600px;
+}
+
+#sentence{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sentence2{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+a{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}

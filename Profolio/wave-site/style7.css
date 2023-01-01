@@ -1,0 +1,255 @@
+/* page1 */
+.table-contact{
+    font-size: 20px;
+    background-color: #0B5C8B;
+    text-align: center;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    padding: 25px;
+}
+
+a{
+    display: inline;
+    width: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("title-name-background.jpg");
+    background-position: center;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: auto;
+    padding: 180px;
+}
+
+.paragraph{
+    background: linear-gradient(rgba(0 0 0 /0.5), rgba(0 0 0 /0.5)), url("information.jpg");
+    background-position: center;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -200px;
+}
+
+.sub{
+    padding-top: 400px;
+}
+
+.sub-para{
+    width: 900px;
+    margin: auto;
+}
+
+.subtitle{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 200px;
+    padding-top: 200px;
+}
+
+.explain{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sub-2-1{
+    display: inline-block;
+    width: 300px;
+}
+
+.sub-2-2{
+    display: inline-block;
+    margin-left: 290px;
+    width: 300px;
+}
+
+.subtitle2{
+    color: white;
+    font-size: 40px;
+    padding-top: 100px;
+}
+
+.explain2{
+    color: white;
+    font-size: 20px;
+    width: 310px;
+    margin-right: auto;
+    margin-top: -20px;
+    display: inline-block;
+    margin-bottom: 300px;
+}
+
+.footer{
+    background-color: #0B5C8B;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.expl{
+    text-align: center;
+    margin-bottom: -15px;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.expl2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* page2 */
+.article-whole{
+    margin: auto;
+    margin-left: 200px;
+    margin-top: 70px;
+}
+
+img{
+    display: inline;
+}
+
+.sub-explain-whole{
+    display: inline-block;
+    margin-left: 50px;
+    vertical-align: top;
+}
+
+.sub-awesome{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-explain{
+    font-size: 15px;
+    width: 40vw;
+    color: gray;
+}
+
+.footer2{
+    background-color: #0B5C8B;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+}
+
+
+/* page3 */
+.message{
+    text-align: center;
+}
+
+.message2{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.leave-location{
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 60px;
+}
+
+.leave-message{
+    margin-bottom: 50px;
+}
+.leave-mess{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -10px;
+}
+
+.leave-mess2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+.location{
+    color: rgb(170, 170, 170);
+    margin-bottom: -10px;
+    font-size: 10px;
+}
+
+.location2{
+    color: rgb(170, 170, 170);
+    font-size: 10px;
+}
+
+.main-input{
+    height: 20px;
+    width: 305px;
+    margin-bottom: 40px;
+    padding: 15px;
+}
+
+.main-text{
+    padding: 15px;
+}
+
+::placeholder{
+    color: gray;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.submit{
+    background-color: #BBE1F7;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+
+/* page4 */
+.page-img{
+    object-fit: cover
+}
+
+.waveAre{
+    margin-left: 200px;
+}
+
+.page4-title{
+    margin-top: 7vw;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.written{
+    font-size: 15px;
+    color: gray;
+}
+
+.date{
+    margin-top: -10px;
+    font-style: italic;
+    font-size: 5px;
+    color: rgb(202, 202, 202);
+}
+
+.page4-para{
+    width: 68vw;
+}

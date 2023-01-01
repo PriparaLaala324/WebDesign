@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Reem+Kufi+Ink&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Main Menu for the first page*/
+.mainMenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(rgba(0 0 0 /0), rgba(0 0 0 /0.5)), url("main-splash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.main{
+    display: flex;
+    height: 70px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.sub{
+    color: rgb(185, 185, 185);
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 50px;
+}
+
+a{
+    color: white;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.Signup{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #FF8E8E;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.description{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.des-title{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.des{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    width: 820px;
+}
+
+
+/*Prefer movie for the first page*/
+.prefer{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.movie1{
+    background-image: url(movie1.jpg);
+    height: 600px;
+    width: 400px;
+    background-size: cover;
+}
+
+.movie2{
+    background-image: url(movie2.jpg);
+    height: 600px;
+    width: 400px;
+    background-size: cover;
+}
+
+.movie3{
+    background-image: url(movie3.jpg);
+    height: 600px;
+    width: 400px;
+    background-size: cover;
+}
+
+.content{
+    padding-top: 80px;
+    color: white;
+    height: 520px;
+    font-family: 'Nunito', sans-serif;
+    opacity: 0;
+    transition: 1s;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: linear-gradient(rgba(0 0 0 /0.5), rgba(0 0 0 /0.5));
+}
+
+.content:hover{
+    opacity: 1;
+}
+
+.movie-topic{
+    font-size: 23px;
+}
+
+.word{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.watch{
+    margin-top: 260px;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    background-color: #FF8E8E;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/*Sign up for the first page*/
+.signUp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 150px;
+    background: linear-gradient(rgba(0 0 0 /0), rgba(0 0 0 /0.5)), url("signup-splash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.signUp-buttom{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    background-color: #FF8E8E;
+    border-radius: 3px;
+    text-align: center;
+    width: 300px;
+}
+
+.text1{
+    margin-top: 30px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+.text{
+    font-size: 50px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+/*Copy right for the first page*/
+.copy{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*Sign up page for the second page*/
+.signUp2{
+    background-color: black;
+    display: flex;
+}
+
+.picture{
+    filter: blur(4px);
+}
+
+.signIn{
+    margin-left: 170px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.signIn2{
+    font-size: 50px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+.signIn-title1{
+    font-size: 20px;
+    color: rgb(180, 180, 180);
+    font-family: 'Nunito', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-weight: lighter;
+}
+
+.signIn-title{
+    font-size: 20px;
+    color: rgb(180, 180, 180);
+    font-family: 'Nunito', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: lighter;
+}
+
+input{
+    padding: 15px;
+    width: 400px;
+}
+
+.signIn-buttom{
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    background-color: #FF8E8E;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/*Sign up page for the third page*/
+.userMenu{
+    display: flex;
+}
+
+.user-whole{
+    background-color: #FF8E8E;
+    width: 25%;
+    height: 860px;
+}
+
+.user{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.name{
+    font-size: 25px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.profile{
+    font-size: 10px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.Menu{
+    text-align: left;
+}
+
+.menu1{
+    font-size: 20px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.menu{
+    font-size: 20px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.logOut{
+    font-size: 20px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 240px;
+    margin-left: 60px;
+}
+
+.whole-movie-information{
+    background-color: black;
+    display: flex;
+    width: 75%;
+}
+
+.Movie{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-top: 60px;
+}
+
+.Movie-title{
+    font-size: 24px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+    width: 300px;
+}
+
+.movie7{
+    margin-top: 25px;
+    width: 120px;
+}
+
+.movie3-1{
+    display: flex;
+}
+
+.movie-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+.movie-name{
+    font-size: 19px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+.movie-time{
+    font-size: 10px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+    margin-top: 5px;
+}
+
+.movie-descrip{
+    font-size: 12px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+    width: 255px;
+    margin-top: 5px;
+}
+
+.online-friends{
+    margin-top: 60px;
+}
+
+.friend{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.friend-photo{
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    object-fit: cover;
+}
+
+.friend-infor{
+    color: white;
+    margin-left: 30px;
+}
+
+.friend-name{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.friend-watch{
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+.Movie-title1{
+    font-size: 24px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+    width: 300px;
+    padding-top: 60px;
+    padding-left: 80px;
+}
+
+.movie3-2{
+    display: flex;
+    margin-left: 80px;
+    flex-direction: column;
+}
+
+.movie-infor{
+    color: white;
+    margin-left: 30px;
+}
+
+.movie-3-2-1{
+    display: flex;
+}
